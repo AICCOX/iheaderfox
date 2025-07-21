@@ -5,7 +5,7 @@
   "description": "Lightweight tool to study AI-generated image metadata, if one is present.",
   "version": "1.1.4",
   "version_name": "1-1-4-CloudBlare",
-  "homepage_url": "",
+  "homepage_url": "https://github.com/AICCOX/iheaderfox",
 
   "permissions": [
     "contextMenus",
