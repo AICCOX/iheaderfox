@@ -1,0 +1,15 @@
+{
+  "langName": "English",
+  "author": "iHeaderFox Team",
+  "version": "1.0.1",
+  "phrases": {
+    "contextMenu": "View embedded metadata",
+    "lensPrev": "◄",
+    "lensNext": "►",
+    "lensClose": "✖",
+    "lensRawWarn": "⚠ No recognizable data structures – displaying raw header:",
+    "lensNoData": "No embedded metadata in this PNG",
+    "popupTitle": "iHeaderFox options",
+    "popupLanguage": "Language"
+  }
+}

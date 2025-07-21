@@ -1,0 +1,45 @@
+/* ----- Overlay (“lens”) ------------------------------------------------ */
+#__foxLens {
+    position: fixed;
+    z-index: 2147483647;
+    inset: 5% 5% auto 5%;
+    width: clamp(0px, 90vw, 800px);
+    height: 90%;
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.75);
+    color: #eee;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    resize: both;
+    overflow: auto;
+}
+
+#__foxLens .bar {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    background: #222;
+    user-select: none;
+}
+
+#__foxLens button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#__foxLens .label { flex: 1; text-align: center; }
+
+#__foxLens pre {
+    flex: 1;
+    margin: 0;
+    padding: 1rem;
+    overflow: auto;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,24 @@
+/* ----- Popup ----------------------------------------------------------- */
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #1f1f1f;
+    color: #eee;
+    width: 240px;
+}
+
+#popup {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+h1   { font-size: 1rem; margin: 0 0 0.25rem 0; }
+select {
+    padding: 0.25rem;
+    background: #333;
+    color: #eee;
+    border: 1px solid #555;
+    border-radius: 4px;
+}

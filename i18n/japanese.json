@@ -1,0 +1,15 @@
+{
+  "langName": "日本語",
+  "author": "iHeaderFox コミュニティ",
+  "version": "1.0.1",
+  "phrases": {
+    "contextMenu": "メタデータを表示",
+    "lensPrev": "◄",
+    "lensNext": "►",
+    "lensClose": "✖",
+    "lensRawWarn": "⚠ 認識できるデータ構造がありません – ヘッダーを表示:",
+    "lensNoData": "この PNG にメタデータはありません",
+    "popupTitle": "iHeaderFox オプション",
+    "popupLanguage": "言語"
+  }
+}
